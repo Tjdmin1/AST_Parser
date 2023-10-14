@@ -2,6 +2,6 @@
 
 First, delete the header file declaration.
 
-Second, run the following command: `python3 generate_ast.py [C File Name] -> ast.json` to create a C_JSON_AST file with the header file deleted.
+Second, run the following command: <pre><code>python3 generate_ast.py [C_File_Name] -> ast.json</code></pre> to create a C_JSON_AST file with the header file deleted.
 
 Third, please compile ast_json_file.c and proceed.
