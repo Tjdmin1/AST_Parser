@@ -1,0 +1,202 @@
+{
+    "_nodetype": "FileAST",
+    "coord": null,
+    "ext": [
+        {
+            "_nodetype": "FuncDef",
+            "body": {
+                "_nodetype": "Compound",
+                "block_items": [
+                    {
+                        "_nodetype": "FuncCall",
+                        "args": {
+                            "_nodetype": "ExprList",
+                            "coord": "t.c:2:12",
+                            "exprs": [
+                                {
+                                    "_nodetype": "Constant",
+                                    "coord": "t.c:2:12",
+                                    "type": "string",
+                                    "value": "\"Hi\""
+                                }
+                            ]
+                        },
+                        "coord": "t.c:2:5",
+                        "name": {
+                            "_nodetype": "ID",
+                            "coord": "t.c:2:5",
+                            "name": "printf"
+                        }
+                    },
+                    {
+                        "_nodetype": "Return",
+                        "coord": "t.c:3:5",
+                        "expr": {
+                            "_nodetype": "Constant",
+                            "coord": "t.c:3:12",
+                            "type": "int",
+                            "value": "0"
+                        }
+                    }
+                ],
+                "coord": "t.c:1:1"
+            },
+            "coord": "t.c:1:5",
+            "decl": {
+                "_nodetype": "Decl",
+                "align": [],
+                "bitsize": null,
+                "coord": "t.c:1:5",
+                "funcspec": [],
+                "init": null,
+                "name": "main",
+                "quals": [],
+                "storage": [],
+                "type": {
+                    "_nodetype": "FuncDecl",
+                    "args": {
+                        "_nodetype": "ParamList",
+                        "coord": "t.c:0:1",
+                        "params": [
+                            {
+                                "_nodetype": "Typename",
+                                "align": null,
+                                "coord": "t.c:0:1",
+                                "name": null,
+                                "quals": [],
+                                "type": {
+                                    "_nodetype": "TypeDecl",
+                                    "align": null,
+                                    "coord": null,
+                                    "declname": null,
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "IdentifierType",
+                                        "coord": "t.c:1:10",
+                                        "names": [
+                                            "void"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "coord": "t.c:1:5",
+                    "type": {
+                        "_nodetype": "TypeDecl",
+                        "align": null,
+                        "coord": "t.c:1:5",
+                        "declname": "main",
+                        "quals": [],
+                        "type": {
+                            "_nodetype": "IdentifierType",
+                            "coord": "t.c:1:1",
+                            "names": [
+                                "int"
+                            ]
+                        }
+                    }
+                }
+            },
+            "param_decls": null
+        },
+        {
+            "_nodetype": "FuncDef",
+            "body": {
+                "_nodetype": "Compound",
+                "block_items": [
+                    {
+                        "_nodetype": "FuncCall",
+                        "args": {
+                            "_nodetype": "ExprList",
+                            "coord": "t.c:7:12",
+                            "exprs": [
+                                {
+                                    "_nodetype": "Constant",
+                                    "coord": "t.c:7:12",
+                                    "type": "string",
+                                    "value": "\"BYE\""
+                                }
+                            ]
+                        },
+                        "coord": "t.c:7:5",
+                        "name": {
+                            "_nodetype": "ID",
+                            "coord": "t.c:7:5",
+                            "name": "printf"
+                        }
+                    },
+                    {
+                        "_nodetype": "Return",
+                        "coord": "t.c:8:5",
+                        "expr": {
+                            "_nodetype": "Constant",
+                            "coord": "t.c:8:12",
+                            "type": "string",
+                            "value": "\"K\""
+                        }
+                    }
+                ],
+                "coord": "t.c:6:1"
+            },
+            "coord": "t.c:6:6",
+            "decl": {
+                "_nodetype": "Decl",
+                "align": [],
+                "bitsize": null,
+                "coord": "t.c:6:6",
+                "funcspec": [],
+                "init": null,
+                "name": "test",
+                "quals": [],
+                "storage": [],
+                "type": {
+                    "_nodetype": "FuncDecl",
+                    "args": {
+                        "_nodetype": "ParamList",
+                        "coord": "t.c:0:1",
+                        "params": [
+                            {
+                                "_nodetype": "Typename",
+                                "align": null,
+                                "coord": "t.c:0:1",
+                                "name": null,
+                                "quals": [],
+                                "type": {
+                                    "_nodetype": "TypeDecl",
+                                    "align": null,
+                                    "coord": null,
+                                    "declname": null,
+                                    "quals": [],
+                                    "type": {
+                                        "_nodetype": "IdentifierType",
+                                        "coord": "t.c:6:11",
+                                        "names": [
+                                            "void"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "coord": "t.c:6:6",
+                    "type": {
+                        "_nodetype": "TypeDecl",
+                        "align": null,
+                        "coord": "t.c:6:6",
+                        "declname": "test",
+                        "quals": [],
+                        "type": {
+                            "_nodetype": "IdentifierType",
+                            "coord": "t.c:6:1",
+                            "names": [
+                                "char"
+                            ]
+                        }
+                    }
+                }
+            },
+            "param_decls": null
+        }
+    ]
+}
